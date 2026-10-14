@@ -1,0 +1,21 @@
+Accession,Strain,BioProject,BioSample,Genome_length_bp,GC_percent,Assembly_level,Completeness_percent,Contamination_percent,Isolation_source,Collection_date,Geographic_location,Serotype,Phenotype,Source_file
+GCF_000967155.2,HUSEC2011,PRJEA76335,SAMEA3865278,5443340,50.5,Complete Genome,,,,,,,,ecoli_new_candidates_review.csv
+GCF_000953515.1,K-12 substr. HMS174,PRJEB6353,SAMEA2547782,4584860,51.0,Complete Genome,98.79,0.15,,,,,,ecoli_new_candidates_review.csv
+GCF_000952955.1,K-12 substr. RV308,PRJEB6354,SAMEA2547783,4585620,51.0,Complete Genome,99.24,0.15,,,,,,ecoli_new_candidates_review.csv
+GCF_000597845.1,ST540,PRJNA238952,SAMN02647163,4758629,51.0,Complete Genome,97.36,0.33,,missing,Belgium,,,ecoli_candidates_review.csv
+GCF_000599625.1,ST540,PRJNA238952,SAMN02666434,4807977,51.0,Complete Genome,97.5,0.41,,2012-04-12,Belgium,,,ecoli_candidates_review.csv
+GCF_000599645.1,ST540,PRJNA238952,SAMN02666695,4875682,51.0,Complete Genome,97.5,0.97,,2012-03-12,Belgium,,,ecoli_candidates_review.csv
+GCF_000599665.1,ST2747,PRJNA238952,SAMN02666696,5054509,50.5,Complete Genome,99.41,0.55,,2012-09-11,Belgium,,,ecoli_candidates_review.csv
+GCF_000599685.1,ST2747,PRJNA238952,SAMN02666697,4998910,50.5,Complete Genome,99.26,0.42,,2012-07-22,Belgium,,,ecoli_candidates_review.csv
+GCF_000599705.1,ST2747,PRJNA238952,SAMN02666698,5090442,51.0,Complete Genome,95.98,0.91,,2012-04-18,Belgium,,,ecoli_candidates_review.csv
+GCF_000784925.1,ECONIH1,PRJNA242851,SAMN02709589,5559642,50.5,Complete Genome,98.91,1.71,rectal swab,2013,USA,,,ecoli_candidates_review.csv
+GCF_000987875.1,SEC470,PRJNA244370,SAMN03576594,5153435,51.0,Complete Genome,99.1,0.15,,,,,,ecoli_new_candidates_review.csv
+GCF_000801165.1,RM9387,PRJNA253935,SAMN03264844,4995948,50.5,Complete Genome,99.24,0.64,Cow feces,2009,USA: California,O104:H7,,ecoli_candidates_review.csv
+GCF_000801185.2,94-3024,PRJNA253936,SAMN03262652,5045911,50.5,Complete Genome,99.55,0.65,human stool,1994,USA: Montana,O104:H21,,ecoli_candidates_review.csv
+GCF_000819645.1,789,PRJNA262513,SAMN03083542,5273074,51.0,Complete Genome,99.03,0.26,Turkey with septicemic infection,1990,,,,ecoli_new_candidates_review.csv
+GCF_000814145.2,6409,PRJNA270222,SAMN03263950,5106503,51.0,Complete Genome,98.77,1.49,excreted bodily substance,2012,Colombia,,carbapenem resistant,ecoli_candidates_review.csv
+GCF_000833145.1,BL21 (TaKaRa),PRJNA272570,SAMN03301757,4528118,51.0,Complete Genome,99.4,0.15,NA(common laboratory strain),not applicable,,,,ecoli_new_candidates_review.csv
+GCF_000931565.1,MNCRE44,PRJNA272863,SAMN03287565,5292269,51.0,Complete Genome,98.28,0.51,sputum,2012-04,,,,ecoli_new_candidates_review.csv
+GCF_000830035.1,C41(DE3),PRJNA273434,SAMN03292179,4557511,51.0,Complete Genome,99.4,0.15,,2009,,,,ecoli_new_candidates_review.csv
+GCF_000833635.2,USML2,PRJNA273553,SAMN03294311,4502758,51.0,Complete Genome,98.08,0.15,Inner leaf tissue,2006-05-27,,,,ecoli_new_candidates_review.csv
+GCF_000971615.1,CI5,PRJNA277394,SAMN03390066,5092643,50.5,Complete Genome,99.16,0.51,,missing,,,,ecoli_new_candidates_review.csv

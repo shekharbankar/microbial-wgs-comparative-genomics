@@ -1,0 +1,38 @@
+PROJECT INVENTORY
+Project: Comparative Genomics and Antimicrobial Resistance Gene Profiling of E. coli
+Inventory generated: Mon Oct 12 10:48:53 UTC 2026
+
+===== PYTHON SCRIPTS =====
+scripts/python/base_composition.py
+scripts/python/check_fasta.py
+scripts/python/extract_candidate_metadata.py
+scripts/python/fasta_summary.py
+scripts/python/summarize_candidates.py
+
+===== RESULTS =====
+results/base_composition.csv
+
+===== METADATA FILES =====
+data/metadata/ecoli_additional_candidates.jsonl
+data/metadata/ecoli_candidates.jsonl
+data/metadata/ecoli_candidates_detailed.jsonl
+data/metadata/ecoli_candidates_review.csv
+data/metadata/ecoli_candidates_summary.csv
+data/metadata/ecoli_new_candidates_detailed.jsonl
+data/metadata/ecoli_new_candidates_review.csv
+
+===== REFERENCE GENOME FILES =====
+data/raw/ecoli/README.md
+data/raw/ecoli/ecoli_genome.zip
+data/raw/ecoli/md5sum.txt
+data/raw/ecoli/ncbi_dataset/data/GCA_000005845.2/GCA_000005845.2_ASM584v2_genomic.fna
+data/raw/ecoli/ncbi_dataset/data/GCF_000005845.2/GCF_000005845.2_ASM584v2_genomic.fna
+data/raw/ecoli/ncbi_dataset/data/assembly_data_report.jsonl
+data/raw/ecoli/ncbi_dataset/data/data_summary.tsv
+data/raw/ecoli/ncbi_dataset/data/dataset_catalog.json
+
+===== DOCUMENTATION =====
+docs/analysis_log.md
+docs/archive/phase1/phase1_summary.txt
+docs/archive/phase1/phase1_work_log.md
+docs/archive/phase1/project_inventory.txt

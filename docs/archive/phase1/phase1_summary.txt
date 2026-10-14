@@ -1,0 +1,104 @@
+PHASE 1 SUMMARY
+Project: Comparative Genomics and Antimicrobial Resistance Gene Profiling of Escherichia coli
+
+PROJECT STATUS
+Phase 1: Project setup, reference genome acquisition, sequence composition analysis, and candidate genome metadata collection.
+Phase 2: Will begin after the Phase 1 records are saved and reviewed.
+
+1. PROJECT GOAL
+The goal is to compare selected Escherichia coli genomes and investigate antimicrobial resistance (AMR) genes using reproducible bioinformatics workflows.
+
+2. REFERENCE GENOME
+Organism: Escherichia coli
+Reference strain: K-12 MG1655
+NCBI Assembly accession: GCF_000005845.2
+NCBI sequence accession: NC_000913.3
+Genome FASTA:
+data/raw/ecoli/ncbi_dataset/data/GCF_000005845.2/GCF_000005845.2_ASM584v2_genomic.fna
+
+3. VERIFIED BASE-COMPOSITION RESULTS
+Genome length: 4,641,652 bp
+A count: 1,142,742
+T count: 1,141,382
+G count: 1,177,437
+C count: 1,180,091
+GC percentage: 50.79%
+
+Validation performed:
+The A, T, G, and C counts sum to 4,641,652.
+The sequence was reported to contain no unexpected characters beyond A, T, G, and C.
+This is a basic sequence consistency check, not a complete genome quality assessment.
+
+4. ANALYSIS SCRIPT
+Script: scripts/python/base_composition.py
+Output: results/base_composition.csv
+Purpose: Calculate genome length, nucleotide counts, and GC percentage.
+
+5. CANDIDATE GENOME METADATA
+Metadata files collected or generated include:
+data/metadata/ecoli_candidates.jsonl
+data/metadata/ecoli_candidates_summary.csv
+data/metadata/ecoli_candidates_detailed.jsonl
+data/metadata/ecoli_candidates_review.csv
+data/metadata/ecoli_additional_candidates.jsonl
+data/metadata/ecoli_new_candidates_detailed.jsonl
+data/metadata/ecoli_new_candidates_review.csv
+
+The first candidate set contains 10 records.
+An additional query returned 20 records, including 10 candidates not present in the first set.
+The combined reviewed candidate list therefore contains 20 unique candidates.
+
+Candidate metadata includes assembly accessions, strain names, genome lengths, GC percentages, assembly levels, sequencing technology, and other available metadata.
+Some fields are missing. Missing phenotype information must be treated as unknown, not as evidence of susceptibility.
+
+6. CANDIDATE REVIEW AND DATASET SELECTION
+The candidates vary in strain, sample source, collection date, and BioProject.
+Six candidates in the initial set are associated with BioProject PRJNA238952.
+The final 10-genome dataset has NOT yet been selected.
+Final selection should consider assembly quality, strain diversity, metadata availability, and study independence where feasible.
+
+7. PROTEIN-CODING GENE COUNTS
+Protein-coding gene counts were collected from metadata for 20 candidate assemblies.
+These counts have not yet been used to establish AMR status or resistance phenotype.
+
+8. PLANNED PROJECT ANALYSES
+- Finalize the candidate genome selection.
+- Download the selected genome sequences.
+- Compare genome length and GC percentage.
+- Assess genome similarity and phylogenetic relationships using appropriate tools.
+- Identify AMR genes using a suitable, documented tool and database.
+- Interpret findings cautiously and distinguish detected genes from confirmed clinical resistance.
+
+9. SOFTWARE AND ENVIRONMENT
+Conda environment: ngs
+Python version: 3.11.16
+Git version: 2.53.0
+NCBI Datasets CLI version: 18.38.0
+pandas version: 3.0.6
+
+Other bioinformatics tools were installed and checked in the environment. Tool availability must be rechecked before each analysis.
+AMR-specific tools and some genome assessment tools were not installed when last checked.
+
+10. IMPORTANT LIMITATIONS
+- The final comparison dataset is not yet finalized.
+- AMR profiling has not yet been completed.
+- No AMR phenotype should be inferred solely from a missing or unverified metadata field.
+- Genome composition results do not establish genome quality, pathogenicity, or antimicrobial resistance.
+- Only results that can be reproduced from saved files and scripts should be included in the final report.
+
+11. REPRODUCIBILITY
+Main project directory:
+~/GitHub_Projects/microbial-wgs-comparative-genomics
+
+Key output:
+results/base_composition.csv
+
+Analysis script:
+scripts/python/base_composition.py
+
+Project log:
+docs/analysis_log.md
+
+This summary records the work currently documented and verified. It is not a complete transcript of every Ubuntu command or terminal session.
+
+END OF PHASE 1 SUMMARY
