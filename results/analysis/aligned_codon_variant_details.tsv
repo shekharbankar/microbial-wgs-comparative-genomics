@@ -1,0 +1,22 @@
+comparison	gene	alignment_position_1based	reference_cds_position_1based	derivative_cds_position_1based	reference_base	derivative_base	reference_codon	derivative_codon	reference_aa	derivative_aa	effect	note
+C1-ST540-P_vs_ST540a	nfsA	579	579	579	C	G	GAC	GAG	D	E	AMINO_ACID_CHANGE	NCBI-annotated partial 3-prime CDS; interpret cautiously
+C1-ST540-P_vs_ST540a	nfsA	581	581	581	A	T	GAA	GTG	E	V	AMINO_ACID_CHANGE	NCBI-annotated partial 3-prime CDS; interpret cautiously
+C1-ST540-P_vs_ST540a	nfsA	582	582	582	A	G	GAA	GTG	E	V	AMINO_ACID_CHANGE	NCBI-annotated partial 3-prime CDS; interpret cautiously
+C1-ST540-P_vs_ST540a	nfsA	583	583	583	C	A	CAA	ATG	Q	M	AMINO_ACID_CHANGE	NCBI-annotated partial 3-prime CDS; interpret cautiously
+C1-ST540-P_vs_ST540a	nfsA	584	584	584	A	T	CAA	ATG	Q	M	AMINO_ACID_CHANGE	NCBI-annotated partial 3-prime CDS; interpret cautiously
+C1-ST540-P_vs_ST540a	nfsA	585	585	585	A	G	CAA	ATG	Q	M	AMINO_ACID_CHANGE	NCBI-annotated partial 3-prime CDS; interpret cautiously
+C1-ST540-P_vs_ST540a	nfsA	589	589	589	G	C	GCT	CCA	A	P	AMINO_ACID_CHANGE	NCBI-annotated partial 3-prime CDS; interpret cautiously
+C1-ST540-P_vs_ST540a	nfsA	591	591	591	T	A	GCT	CCA	A	P	AMINO_ACID_CHANGE	NCBI-annotated partial 3-prime CDS; interpret cautiously
+C1-ST540-P_vs_ST540a	nfsA	592	592	592	G	A	GAA	ACT	E	T	AMINO_ACID_CHANGE	NCBI-annotated partial 3-prime CDS; interpret cautiously
+C1-ST540-P_vs_ST540a	nfsA	593	593	593	A	C	GAA	ACT	E	T	AMINO_ACID_CHANGE	NCBI-annotated partial 3-prime CDS; interpret cautiously
+C1-ST540-P_vs_ST540a	nfsA	594	594	594	A	T	GAA	ACT	E	T	AMINO_ACID_CHANGE	NCBI-annotated partial 3-prime CDS; interpret cautiously
+C1-ST540-P_vs_ST540a	nfsA	597	597	597	T	C	TAT	TAC	Y	Y	SYNONYMOUS	NCBI-annotated partial 3-prime CDS; interpret cautiously
+C1-ST540-P_vs_ST540an	nfsA	298	298	298	C	T	CAG	TAG	Q	*	STOP_GAINED	
+ST2747-Parental_vs_ST2747a	nfsA	58	58	58	G	T	GAA	TAA	E	*	STOP_GAINED	
+C1-ST540-P_vs_ST540a	nfsB	561	561	561	G	A	GTG	GTA	V	V	SYNONYMOUS	NCBI-annotated partial 3-prime CDS; interpret cautiously
+C1-ST540-P_vs_ST540a	nfsB	562	562	562	G	A	GTT	ATG	V	M	AMINO_ACID_CHANGE	NCBI-annotated partial 3-prime CDS; interpret cautiously
+C1-ST540-P_vs_ST540a	nfsB	564	564	564	T	G	GTT	ATG	V	M	AMINO_ACID_CHANGE	NCBI-annotated partial 3-prime CDS; interpret cautiously
+C1-ST540-P_vs_ST540a	nfsB	565	565	565	G	A	GTT	ACT	V	T	AMINO_ACID_CHANGE	NCBI-annotated partial 3-prime CDS; interpret cautiously
+C1-ST540-P_vs_ST540a	nfsB	566	566	566	T	C	GTT	ACT	V	T	AMINO_ACID_CHANGE	NCBI-annotated partial 3-prime CDS; interpret cautiously
+C1-ST540-P_vs_ST540a	nfsB	570	570	570	G	A	CCG	CCA	P	P	SYNONYMOUS	NCBI-annotated partial 3-prime CDS; interpret cautiously
+ST2747-Parental_vs_ST2747a	nfsB	169	169	169	A	T	AAA	TAA	K	*	STOP_GAINED	

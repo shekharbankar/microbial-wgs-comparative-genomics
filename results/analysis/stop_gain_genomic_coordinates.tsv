@@ -1,0 +1,4 @@
+gene	cds_position	reference_accession	reference_locus_tag	reference_record	reference_genomic_coordinate_1based	reference_strand	reference_cds_base	reference_genomic_forward_base	reference_codon	derivative_accession	derivative_locus_tag	derivative_record	derivative_genomic_coordinate_1based	derivative_strand	derivative_cds_base	derivative_genomic_forward_base	derivative_codon	validation_status
+nfsA	298	GCF_000597845.1	BU34_RS01915	NZ_CP007265.1	386979	-	C	G	CAG	GCF_000599645.1	CF61_RS25690	NZ_CP007391.1	3059910	-	T	A	TAG	PASS
+nfsA	58	GCF_000599665.1	CF58_RS07610	NZ_CP007392.1	1595566	+	G	G	GAA	GCF_000599685.1	CF59_RS07610	NZ_CP007393.1	1604255	+	T	T	TAA	PASS
+nfsB	169	GCF_000599665.1	CF58_RS06210	NZ_CP007392.1	1318382	-	A	T	AAA	GCF_000599685.1	CF59_RS06250	NZ_CP007393.1	1328785	-	T	A	TAA	PASS

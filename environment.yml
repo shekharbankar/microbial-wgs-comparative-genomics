@@ -1,0 +1,11 @@
+name: microbial-wgs-comparative-genomics
+
+channels:
+  - conda-forge
+  - bioconda
+
+dependencies:
+  - python=3.11
+  - biopython=1.88
+  - mafft=7.525
+  - seqkit=2.14.0

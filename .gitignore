@@ -1,0 +1,52 @@
+# Raw sequencing data and large alignment/analysis files
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bai
+*.cram
+*.crai
+*.sam
+*.vcf
+*.vcf.gz
+*.bcf
+
+# Temporary and backup files
+*.tmp
+*.log
+*~
+__pycache__/
+*.py[cod]
+
+# Python environments and secrets
+.venv/
+venv/
+.env
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Downloaded NCBI genome and annotation packages
+data/raw/ecoli/*
+!data/raw/ecoli/README.md
+!data/raw/ecoli/md5sum.txt
+
+data/processed/annotations/ncbi_dataset/data/
+data/processed/annotations/*.zip
+
+# Project backups and local test files
+results/analysis/backup/
+scripts/python/analyze_codon_effects_backup.py
+test.txt
+
+# Editor temporary files
+*.swp
+*.swo
+
+# Ignore downloaded NCBI datasets and extracted genome annotations
+*.zip
+data/raw/ecoli/nitrofurantoin_six_genomes/
+data/processed/annotations/ncbi_dataset/data/
+docs/archive/phase1/available_shell_history.txt

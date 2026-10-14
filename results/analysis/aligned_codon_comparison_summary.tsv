@@ -1,0 +1,9 @@
+comparison	gene	status	nucleotide_mismatches	gap_columns
+C1-ST540-P_vs_ST540a	nfsA	REVIEW_PARTIAL_CDS	12	126
+C1-ST540-P_vs_ST540an	nfsA	OK	1	0
+ST2747-Parental_vs_ST2747a	nfsA	OK	1	0
+ST2747-Parental_vs_ST2747an	nfsA	OK	0	0
+C1-ST540-P_vs_ST540a	nfsB	REVIEW_PARTIAL_CDS	6	84
+C1-ST540-P_vs_ST540an	nfsB	OK	0	0
+ST2747-Parental_vs_ST2747a	nfsB	OK	1	0
+ST2747-Parental_vs_ST2747an	nfsB	OK	0	0

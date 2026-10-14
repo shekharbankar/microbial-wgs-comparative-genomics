@@ -1,0 +1,7 @@
+assembly_accession	biosample_accession	strain	sample_name	role	condition	nitrofurantoin_MIC_ug_per_mL	phenotype_source
+GCF_000597845.1	SAMN02647163	ST540	C1-ST540-P	parental	parental	16	Xavier et al. 2014; PMID:24723707
+GCF_000599625.1	SAMN02666434	ST540	ST540a	resistant_derivative	aerobic	256	Xavier et al. 2014; PMID:24723707
+GCF_000599645.1	SAMN02666695	ST540	ST540an	resistant_derivative	anaerobic	64	Xavier et al. 2014; PMID:24723707
+GCF_000599665.1	SAMN02666696	ST2747	ST2747-Parental	parental	parental	4	Xavier et al. 2014; PMID:24723707
+GCF_000599685.1	SAMN02666697	ST2747	ST2747a	resistant_derivative	aerobic	128	Xavier et al. 2014; PMID:24723707
+GCF_000599705.1	SAMN02666698	ST2747	ST2747an	resistant_derivative	anaerobic	32	Xavier et al. 2014; PMID:24723707

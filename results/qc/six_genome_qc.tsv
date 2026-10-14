@@ -1,0 +1,7 @@
+assembly_accession	sample_name	strain	condition	chromosome_records	total_length_bp	GC_percent	N_bases	other_non_ACGTN_bases	sequence_integrity_check
+GCF_000597845.1	C1-ST540-P	ST540	parental	1	4758629	51.11	0	0	PASS
+GCF_000599625.1	ST540a	ST540	aerobic	1	4807977	51.04	0	0	PASS
+GCF_000599645.1	ST540an	ST540	anaerobic	1	4875682	51.02	0	0	PASS
+GCF_000599665.1	ST2747-Parental	ST2747	parental	1	5054509	50.65	0	0	PASS
+GCF_000599685.1	ST2747a	ST2747	aerobic	1	4998910	50.65	0	0	PASS
+GCF_000599705.1	ST2747an	ST2747	anaerobic	1	5090442	50.78	0	0	PASS

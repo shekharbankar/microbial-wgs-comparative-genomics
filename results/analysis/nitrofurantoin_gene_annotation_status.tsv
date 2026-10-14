@@ -1,0 +1,13 @@
+assembly_accession	sample_name	strain	condition	nitrofurantoin_MIC_ug_per_mL	gene	annotation_status	start	end	strand	locus_tag	gff_feature_type
+GCF_000597845.1	C1-ST540-P	ST540	parental	16	nfsA	protein_coding_annotated	386554	387276	-	BU34_RS01915	gene
+GCF_000597845.1	C1-ST540-P	ST540	parental	16	nfsB	protein_coding_annotated	715488	716141	+	BU34_RS03655	gene
+GCF_000599625.1	ST540a	ST540	aerobic	256	nfsA	pseudogene_annotated	2959713	2960309	-	CF57_RS14735	pseudogene
+GCF_000599625.1	ST540a	ST540	aerobic	256	nfsB	pseudogene_annotated	3288521	3289090	+	CF57_RS16480	pseudogene
+GCF_000599645.1	ST540an	ST540	anaerobic	64	nfsA	pseudogene_annotated	3059485	3060207	-	CF61_RS25690	pseudogene
+GCF_000599645.1	ST540an	ST540	anaerobic	64	nfsB	protein_coding_annotated	3388419	3389072	+	CF61_RS17015	gene
+GCF_000599665.1	ST2747-Parental	ST2747	parental	4	nfsB	protein_coding_annotated	1317897	1318550	-	CF58_RS06210	gene
+GCF_000599665.1	ST2747-Parental	ST2747	parental	4	nfsA	protein_coding_annotated	1595509	1596231	+	CF58_RS07610	gene
+GCF_000599685.1	ST2747a	ST2747	aerobic	128	nfsB	pseudogene_annotated	1328300	1328953	-	CF59_RS06250	pseudogene
+GCF_000599685.1	ST2747a	ST2747	aerobic	128	nfsA	pseudogene_annotated	1604198	1604920	+	CF59_RS07610	pseudogene
+GCF_000599705.1	ST2747an	ST2747	anaerobic	32	nfsB	protein_coding_annotated	1330415	1331068	-	CF60_RS06265	gene
+GCF_000599705.1	ST2747an	ST2747	anaerobic	32	nfsA	protein_coding_annotated	1609872	1610594	+	CF60_RS07680	gene

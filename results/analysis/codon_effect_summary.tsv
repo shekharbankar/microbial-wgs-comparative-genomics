@@ -1,0 +1,6 @@
+comparison	gene	status	cds_position_1based	reference_codon	alternate_codon	reference_aa	alternate_aa	effect
+C1-ST540-P_vs_ST540a	nfsA	LENGTH_DIFFERENCE_REQUIRES_ALIGNMENT						
+C1-ST540-P_vs_ST540a	nfsB	LENGTH_DIFFERENCE_REQUIRES_ALIGNMENT						
+C1-ST540-P_vs_ST540an	nfsA	OK_CDS_COORDINATES	298	CAG	TAG	Q	*	STOP_GAINED
+ST2747-Parental_vs_ST2747a	nfsA	OK_CDS_COORDINATES	58	GAA	TAA	E	*	STOP_GAINED
+ST2747-Parental_vs_ST2747a	nfsB	OK_CDS_COORDINATES	169	AAA	TAA	K	*	STOP_GAINED
