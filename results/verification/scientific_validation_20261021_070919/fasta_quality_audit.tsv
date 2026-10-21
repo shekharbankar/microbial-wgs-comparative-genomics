@@ -1,0 +1,7 @@
+file	records	total_length_bp	GC_percent	N_bases	other_non_ACGTN_bases
+data/raw/ecoli/nitrofurantoin_six_genomes/ncbi_dataset/data/GCF_000597845.1/GCF_000597845.1_ASM59784v1_genomic.fna	1	4758629	51.1064	0	0
+data/raw/ecoli/nitrofurantoin_six_genomes/ncbi_dataset/data/GCF_000599625.1/GCF_000599625.1_ASM59962v1_genomic.fna	1	4807977	51.0371	0	0
+data/raw/ecoli/nitrofurantoin_six_genomes/ncbi_dataset/data/GCF_000599645.1/GCF_000599645.1_ASM59964v1_genomic.fna	1	4875682	51.0219	0	0
+data/raw/ecoli/nitrofurantoin_six_genomes/ncbi_dataset/data/GCF_000599665.1/GCF_000599665.1_ASM59966v1_genomic.fna	1	5054509	50.6531	0	0
+data/raw/ecoli/nitrofurantoin_six_genomes/ncbi_dataset/data/GCF_000599685.1/GCF_000599685.1_ASM59968v1_genomic.fna	1	4998910	50.6531	0	0
+data/raw/ecoli/nitrofurantoin_six_genomes/ncbi_dataset/data/GCF_000599705.1/GCF_000599705.1_ASM59970v1_genomic.fna	1	5090442	50.7826	0	0

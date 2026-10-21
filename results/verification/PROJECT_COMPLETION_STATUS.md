@@ -1,11 +1,6 @@
-# Microbial WGS Comparative Genomics — Completion Status
+# Microbial WGS Comparative Genomics
 
-## Project scope
-Comparative genomic analysis of selected Escherichia coli isolates,
-focusing on candidate nfsA and nfsB variants.
-
-## Candidate sequence changes
-
+## Candidate variants
 | Gene | CDS position | Codon change | Predicted protein change |
 |---|---:|---|---|
 | nfsA | 298 | CAG -> TAG | Q100* |
@@ -22,22 +17,16 @@ focusing on candidate nfsA and nfsB variants.
 - docs/reproducibility.md
 - environment.yml
 
-## Recorded technical checks
-Previous terminal logs recorded successful Python syntax checks,
-TSV structure checks, and sequence-level checks for three candidate
-stop-gain variants. Genomic coordinate mapping was also reported
-as successful.
+## Limitations
+The candidate variants have passed the recorded sequence-level checks.
+This does not prove that they cause nitrofurantoin resistance.
+No new susceptibility experiments, enzyme activity measurements,
+or genetic complementation experiments were performed.
+Published MIC values require primary-source verification.
+Full independent reproducibility requires regeneration and review
+of the complete extraction, alignment, and analysis workflow.
 
-## Scientific limitations
-- Sequence changes alone do not prove resistance causality.
-- No new antimicrobial susceptibility experiments were performed.
-- Enzyme activity and genetic complementation were not tested.
-- Published MIC values require checking against the primary paper.
-- Complete independent reproducibility requires regeneration and
-  review of the full extraction, alignment, and analysis workflow.
-
-## Completion statement
-This file records the project's current documentation status.
-It does not certify experimental validation or complete independent
-reproducibility. The presence and correctness of principal outputs
-must be checked against the actual repository files.
+## Completion status
+Project documentation and recorded computational findings are
+preserved in the repository. Full independent scientific
+reproducibility and biological causality remain unconfirmed.

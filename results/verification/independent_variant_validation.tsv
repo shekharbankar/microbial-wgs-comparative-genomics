@@ -1,0 +1,4 @@
+gene	cds_position_1based	reference_codon	derivative_codon	reference_cds_length	derivative_cds_length	mismatch_positions	reference_base_matches	derivative_base_matches	reference_codon_matches	derivative_codon_matches	single_expected_difference	reference_is_not_stop	derivative_is_stop	independent_validation
+nfsA	298	CAG	TAG	723	723	298	True	True	True	True	True	True	True	PASS
+nfsA	58	GAA	TAA	723	723	58	True	True	True	True	True	True	True	PASS
+nfsB	169	AAA	TAA	654	654	169	True	True	True	True	True	True	True	PASS
