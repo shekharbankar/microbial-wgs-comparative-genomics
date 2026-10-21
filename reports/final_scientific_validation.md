@@ -1,64 +1,67 @@
 # Final Scientific Validation Report
 
-## Project
-Comparative whole-genome analysis of six selected Escherichia coli
-genomes, focusing on candidate nfsA and nfsB variants associated
-with nitrofurantoin susceptibility.
+## Project overview
 
-## Candidate variants
+This project examines selected Escherichia coli genome assemblies
+using comparative microbial genomics, with a focus on nfsA and nfsB
+candidate variants associated with nitrofurantoin susceptibility.
 
-| Gene | CDS position | Reference codon | Derivative codon | Predicted change |
+The workflow includes genome sequence quality checks, annotation
+review, coding-sequence comparisons, sequence alignment, codon-level
+interpretation, genomic coordinate mapping, and evidence review.
+
+## Sequence-validated candidate variants
+
+| Gene | CDS position (1-based) | Reference codon | Derivative codon | Predicted protein change |
 |---|---:|---|---|---|
 | nfsA | 298 | CAG | TAG | Q100* |
 | nfsA | 58 | GAA | TAA | E20* |
 | nfsB | 169 | AAA | TAA | K57* |
 
-These findings are reported as candidate sequence variants.
-Their biological effects and contributions to resistance have
-not been experimentally established by this project.
+The repository's validation script compares the annotated coding
+sequences and checks the expected nucleotide difference and codon
+change. The regenerated output tables must be reviewed alongside
+this report.
 
-## Technical validation
+## Biological interpretation
 
-Previous recorded terminal output reported successful independent
-CDS checks for three candidate variants and successful mapping
-of their genomic coordinates.
+Each listed substitution is predicted to introduce a premature
+termination codon in the corresponding coding sequence.
 
-The latest execution status must be checked using the project
-validation scripts and generated result tables.
+These are sequence-based candidate effects. This computational
+project does not establish enzyme activity, demonstrate the
+independent contribution of each variant, or experimentally prove
+that any individual substitution causes nitrofurantoin resistance.
+
+Where multiple candidate variants occur in the same derivative,
+their separate effects cannot be determined from sequence comparison
+alone.
 
 ## Phenotype evidence
 
-MIC values recorded in the project are attributed to a published
-study. They were not measured experimentally by this project.
-The original publication and its supplementary data must be checked
-before these values are used in a submitted report.
+The phenotype evidence table records antimicrobial susceptibility
+values attributed to a published study. These values were not
+measured experimentally by this project.
 
-A variant-phenotype association does not establish causation.
+The recorded values and their correspondence to the relevant strains
+must be checked against the original publication before being used
+in a final dissertation, report, or presentation.
 
-## Limitations
+## Reproducibility
 
-- No new antimicrobial susceptibility experiments were performed.
-- Enzyme activity was not measured.
-- Complementation and allele-replacement experiments were not performed.
-- Other mutations and genetic background may affect the phenotype.
-- Full reproducibility requires regeneration and review of the
-  extraction, alignment and analysis outputs.
+The repository includes Python analysis scripts, an environment
+specification, input genome assemblies, annotated coding sequences,
+and tabular results.
 
-## Principal outputs
+This finalization run checks software availability, Python syntax,
+required TSV structure, candidate variant validation, genomic
+coordinate mapping, and available alignment files.
 
-- results/qc/six_genome_qc.tsv
-- results/analysis/validated_stop_gain_variants.tsv
-- results/analysis/stop_gain_genomic_coordinates.tsv
-- results/analysis/variant_biological_interpretation.tsv
-- results/analysis/phenotype_variant_evidence.tsv
-- results/analysis/final_variant_summary.tsv
-- docs/reproducibility.md
-- environment.yml
+These checks do not independently establish that every earlier
+analysis can be reproduced from scratch. A full reproducibility
+claim requires rerunning the original workflow from documented inputs
+and comparing all regenerated outputs with the saved results.
 
-## Conclusion
+## Key outputs
 
-This project provides a computational comparative-genomics
-workflow for investigating candidate nfsA and nfsB variants.
-Sequence-level validation supports the reported sequence changes,
-but does not establish that these variants independently cause
-nitrofurantoin resistance.
+- 
