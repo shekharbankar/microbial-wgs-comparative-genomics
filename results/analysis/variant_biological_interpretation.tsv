@@ -1,4 +1,4 @@
-gene	cds_position	protein_change	reference_codon	derivative_codon	reference_accession	derivative_accession	derivative_genomic_coordinate_1based	interpretation	evidence_level	limitation
-nfsA	298	Q100*	CAG	TAG	GCF_000597845.1	GCF_000599645.1	3059910	Candidate premature termination of NfsA	Sequence-validated candidate	Enzyme activity and independent contribution to resistance not experimentally established
-nfsA	58	E20*	GAA	TAA	GCF_000599665.1	GCF_000599685.1	1604255	Candidate premature termination of NfsA	Sequence-validated candidate	Enzyme activity and independent contribution to resistance not experimentally established
-nfsB	169	K57*	AAA	TAA	GCF_000599665.1	GCF_000599685.1	1328785	Candidate premature termination of NfsB	Sequence-validated candidate	Enzyme activity and independent contribution to resistance not experimentally established
+gene	cds_position_1based	protein_change	reference_codon	derivative_codon	reference_accession	derivative_accession	derivative_genomic_coordinate_1based	interpretation	evidence_level	limitation
+nfsA	298	Q100*	CAG	TAG	GCF_000597845.1	GCF_000599645.1	3059910	Candidate premature termination of NfsA	Sequence-validated candidate	Enzyme activity and independent contribution to resistance have not been experimentally established
+nfsA	58	E20*	GAA	TAA	GCF_000599665.1	GCF_000599685.1	1604255	Candidate premature termination of NfsA	Sequence-validated candidate	Enzyme activity and independent contribution to resistance have not been experimentally established
+nfsB	169	K57*	AAA	TAA	GCF_000599665.1	GCF_000599685.1	1328785	Candidate premature termination of NfsB	Sequence-validated candidate	Enzyme activity and independent contribution to resistance have not been experimentally established

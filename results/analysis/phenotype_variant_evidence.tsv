@@ -1,4 +1,4 @@
-strain	assembly	gene	cds_position	protein_change	reported_aerobic_mic_ug_ml	reported_anaerobic_mic_ug_ml	phenotype_source	doi	interpretation
-ST540-an	GCF_000599645.1	nfsA	298	Q100*	64	16	Vervoort et al. 2014	10.1128/aac.03952-14	Premature stop coincides with reported resistant derivative; association does not alone prove causation
-ST2747-a	GCF_000599685.1	nfsA	58	E20*	128	32	Vervoort et al. 2014	10.1128/aac.03952-14	Premature stop coincides with reported resistant derivative; nfsB also carries a candidate stop-gain
-ST2747-a	GCF_000599685.1	nfsB	169	K57*	128	32	Vervoort et al. 2014	10.1128/aac.03952-14	Premature stop coincides with reported resistant derivative; nfsA also carries a candidate stop-gain
+strain	assembly	gene	cds_position_1based	protein_change	reported_aerobic_mic_ug_ml	reported_anaerobic_mic_ug_ml	phenotype_source	doi	interpretation
+ST540-an	GCF_000599645.1	nfsA	298	Q100*	64	16	Vervoort et al. 2014	10.1128/aac.03952-14	Candidate stop-gain coincides with a reported derivative phenotype; association alone does not prove causation
+ST2747-a	GCF_000599685.1	nfsA	58	E20*	128	32	Vervoort et al. 2014	10.1128/aac.03952-14	Candidate stop-gain; nfsB also has a candidate stop-gain in this derivative, so individual effects cannot be separated from this comparison alone
+ST2747-a	GCF_000599685.1	nfsB	169	K57*	128	32	Vervoort et al. 2014	10.1128/aac.03952-14	Candidate stop-gain; nfsA also has a candidate stop-gain in this derivative, so individual effects cannot be separated from this comparison alone
