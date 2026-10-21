@@ -1,67 +1,42 @@
 # Final Scientific Validation Report
 
-## Project overview
+## Project
 
-This project examines selected Escherichia coli genome assemblies
-using comparative microbial genomics, with a focus on nfsA and nfsB
-candidate variants associated with nitrofurantoin susceptibility.
+Comparative whole-genome analysis of selected Escherichia coli
+isolates, focusing on nfsA and nfsB candidate variants associated
+with nitrofurantoin susceptibility.
 
-The workflow includes genome sequence quality checks, annotation
-review, coding-sequence comparisons, sequence alignment, codon-level
-interpretation, genomic coordinate mapping, and evidence review.
+## Candidate variants
 
-## Sequence-validated candidate variants
-
-| Gene | CDS position (1-based) | Reference codon | Derivative codon | Predicted protein change |
+| Gene | CDS position | Reference codon | Derivative codon | Predicted change |
 |---|---:|---|---|---|
 | nfsA | 298 | CAG | TAG | Q100* |
 | nfsA | 58 | GAA | TAA | E20* |
 | nfsB | 169 | AAA | TAA | K57* |
 
-The repository's validation script compares the annotated coding
-sequences and checks the expected nucleotide difference and codon
-change. The regenerated output tables must be reviewed alongside
-this report.
+These candidates were evaluated using annotated coding sequences.
+The validation status must be confirmed from the regenerated output
+tables before reporting these results as final.
 
-## Biological interpretation
+## Interpretation
 
-Each listed substitution is predicted to introduce a premature
-termination codon in the corresponding coding sequence.
+A premature stop codon is a predicted consequence of the observed
+coding-sequence change. Sequence comparison alone does not prove
+that a variant causes nitrofurantoin resistance.
 
-These are sequence-based candidate effects. This computational
-project does not establish enzyme activity, demonstrate the
-independent contribution of each variant, or experimentally prove
-that any individual substitution causes nitrofurantoin resistance.
+The published MIC values recorded in the phenotype evidence table
+are not experimental measurements made by this project. They should
+be checked against the original publication before final submission.
 
-Where multiple candidate variants occur in the same derivative,
-their separate effects cannot be determined from sequence comparison
-alone.
+## Reproducibility status
 
-## Phenotype evidence
+Technical checks include software-version recording, Python syntax
+validation, table-structure validation, and annotated-CDS comparisons.
 
-The phenotype evidence table records antimicrobial susceptibility
-values attributed to a published study. These values were not
-measured experimentally by this project.
+A complete reproducibility claim additionally requires running the
+original extraction, alignment, quality-control, and analysis workflow
+from the documented input data and reviewing the regenerated outputs.
 
-The recorded values and their correspondence to the relevant strains
-must be checked against the original publication before being used
-in a final dissertation, report, or presentation.
-
-## Reproducibility
-
-The repository includes Python analysis scripts, an environment
-specification, input genome assemblies, annotated coding sequences,
-and tabular results.
-
-This finalization run checks software availability, Python syntax,
-required TSV structure, candidate variant validation, genomic
-coordinate mapping, and available alignment files.
-
-These checks do not independently establish that every earlier
-analysis can be reproduced from scratch. A full reproducibility
-claim requires rerunning the original workflow from documented inputs
-and comparing all regenerated outputs with the saved results.
-
-## Key outputs
+## Key files
 
 - 

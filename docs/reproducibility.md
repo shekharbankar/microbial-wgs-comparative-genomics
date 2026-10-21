@@ -1,46 +1,26 @@
 # Reproducibility Guide
 
-## 1. Environment
+Activate the environment:
 
     conda activate ngs
-    python --version
-    python -c "import Bio; print(Bio.__version__)"
-    mafft --version
-    seqkit version
 
-## 2. Candidate variant validation
+Validate candidate variants:
 
     python scripts/python/validate_stop_gain_variants.py
 
-Output:
-results/analysis/validated_stop_gain_variants.tsv
-
-## 3. Genomic coordinate mapping
+Map genomic coordinates:
 
     python scripts/python/map_stop_gain_genomic_coordinates.py
 
-Output:
-results/analysis/stop_gain_genomic_coordinates.tsv
+Check required input FASTA files before generating gene alignments.
+If an input is missing, identify and run the repository's gene
+extraction workflow first.
 
-## 4. Gene extraction and alignment
+Example MAFFT command after input verification:
 
-Check the repository's extraction scripts and annotations before
-regenerating missing gene FASTA files.
-
-If the required gene FASTA files exist:
-
-    mkdir -p results/analysis/alignments
     mafft --auto results/analysis/nfsA_sequences.fasta > results/analysis/alignments/nfsA_aligned.fasta
-    mafft --auto results/analysis/nfsB_sequences.fasta > results/analysis/alignments/nfsB_aligned.fasta
 
-Check the output files and alignment lengths before claiming success.
+Repeat for nfsB when its input FASTA exists.
 
-## 5. Validation
-
-Review the verification logs, output table headers, record counts,
-and regenerated results.
-
-## 6. Scientific limitations
-
-Sequence validation does not establish biological causality.
-Published phenotype values must be checked against the original paper.
+Sequence validation alone does not prove resistance causality.
+Verify published phenotype values against the original paper.

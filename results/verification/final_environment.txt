@@ -1,0 +1,8 @@
+# Environment
+
+2026-10-21T07:42:56+00:00
+
+Python 3.11.16
+Biopython: 1.88
+seqkit v2.14.0
+c9257c2 Finalize microbial WGS scientific report and audit
