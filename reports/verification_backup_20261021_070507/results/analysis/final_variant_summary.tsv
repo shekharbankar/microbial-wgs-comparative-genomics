@@ -1,4 +1,0 @@
-comparison	gene	cds_position_1based	reference_codon	derivative_codon	predicted_effect	sequence_validation	causality_status
-C1-ST540-P_vs_ST540an	nfsA	298	CAG	TAG	Q100*; stop gained	PASS	Candidate association; causality not experimentally established
-ST2747-Parental_vs_ST2747a	nfsA	58	GAA	TAA	E20*; stop gained	PASS	Candidate association; causality not experimentally established
-ST2747-Parental_vs_ST2747a	nfsB	169	AAA	TAA	K57*; stop gained	PASS	Candidate association; causality not experimentally established
